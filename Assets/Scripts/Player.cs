@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
@@ -6,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
     private float _horizontalMovement = 0f;
     private float _verticalMovement = 0f;
     private Vector3 _velocity = Vector3.zero;
-    private bool _facingLeft = true;
+    private bool _walkingLeft, _walkingFront;
 
     [Range(0, .3f)] [SerializeField] private float movementDampening = .05f;
     [SerializeField] private Rigidbody2D playerRigidbody2D;
@@ -22,33 +23,63 @@ public class PlayerMovement : MonoBehaviour {
         Move(_verticalMovement * moveSpeed * Time.fixedDeltaTime, true);
 
         if (characterAnimator != null) {
-            if (_horizontalMovement is -1 or 1) {
-                SetSideAnimation();
-
-                switch (_horizontalMovement) {
-                    case > 0 when !_facingLeft:
-                    case < 0 when _facingLeft:
-                        Flip();
-                        break;
-                }
+            if (_horizontalMovement is 1) {
+                SetRightAnimation();
+                _walkingLeft = false;
+            }
+            else if (_horizontalMovement is -1) {
+                SetLeftAnimation();
+                _walkingLeft = true;
             }
 
             else if (_verticalMovement is 1) {
                 SetBackAnimation();
+                _walkingFront = false;
             }
             else if (_verticalMovement is -1) {
                 SetFrontAnimation();
+                _walkingFront = true;
             }
             else if (_verticalMovement is 0 || _horizontalMovement is 0) {
                 SetIdleAnimation();
             }
         }
     }
+    
+    private void Move(float movement, bool isVertical) {
+        Vector2 playerVelocity = playerRigidbody2D.velocity;
+
+        Vector2 targetVelocity = isVertical switch {
+            true => new Vector2(playerVelocity.x, movement * 10f),
+            false => new Vector2(movement * 10f, playerVelocity.y)
+        };
+
+        playerRigidbody2D.velocity =
+            Vector3.SmoothDamp(playerVelocity, targetVelocity, ref _velocity, movementDampening);
+    }
 
     private void SetIdleAnimation() {
-        characterAnimator.SetTrigger("Idle");
-        clothesAnimator.SetTrigger("Idle");
-        hairAnimator.SetTrigger("Idle");
+        if (_walkingLeft == true) {
+            characterAnimator.SetTrigger("IdleLeft");
+            clothesAnimator.SetTrigger("IdleLeft");
+            hairAnimator.SetTrigger("IdleLeft");
+        }
+        else if (_walkingLeft == false) {
+            characterAnimator.SetTrigger("IdleRight");
+            clothesAnimator.SetTrigger("IdleRight");
+            hairAnimator.SetTrigger("IdleRight");
+        }
+
+        if (_walkingFront == true) {
+            characterAnimator.SetTrigger("IdleFront");
+            clothesAnimator.SetTrigger("IdleFront");
+            hairAnimator.SetTrigger("IdleFront");
+        }
+        else {
+            characterAnimator.SetTrigger("IdleBack");
+            clothesAnimator.SetTrigger("IdleBack");
+            hairAnimator.SetTrigger("IdleBack");
+        }
     }
 
     private void SetFrontAnimation() {
@@ -63,28 +94,15 @@ public class PlayerMovement : MonoBehaviour {
         hairAnimator.SetTrigger("Back");
     }
 
-    private void SetSideAnimation() {
-        characterAnimator.SetTrigger("Side");
-        clothesAnimator.SetTrigger("Side");
-        hairAnimator.SetTrigger("Side");
+    private void SetRightAnimation() {
+        characterAnimator.SetTrigger("Right");
+        clothesAnimator.SetTrigger("Right");
+        hairAnimator.SetTrigger("Right");
     }
 
-    private void Move(float movement, bool isVertical) {
-        Vector2 playerVelocity = playerRigidbody2D.velocity;
-
-        Vector2 targetVelocity = isVertical switch {
-            true => new Vector2(playerVelocity.x, movement * 10f),
-            false => new Vector2(movement * 10f, playerVelocity.y)
-        };
-
-        playerRigidbody2D.velocity =
-            Vector3.SmoothDamp(playerVelocity, targetVelocity, ref _velocity, movementDampening);
-    }
-
-    private void Flip() {
-        _facingLeft = !_facingLeft;
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+    private void SetLeftAnimation() {
+        characterAnimator.SetTrigger("Left");
+        clothesAnimator.SetTrigger("Left");
+        hairAnimator.SetTrigger("Left");
     }
 }
