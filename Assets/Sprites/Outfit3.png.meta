@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06e1fdaa1ceae3b46b0a4237a4816388
+guid: 0d83c5242dc32f3468305e91306dd68c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,1345 +123,1345 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hair1_1
+      name: Outfit3_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 476
-        width: 14
-        height: 13
+        x: 0
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca4c898ed17a3b4d98bdfdf018527eb
-      internalID: -1196135675
+      spriteID: 737b3271e8d102648bf3bae0e0d3c262
+      internalID: 1562997867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_2
+      name: Outfit3_1
       rect:
         serializedVersion: 2
-        x: 216
-        y: 482
-        width: 14
-        height: 13
+        x: 64
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e4e6326bfeadc4788708dc4affe93d
-      internalID: -1921857408
+      spriteID: 18aa28d9cacf3b649bb1627715eadf38
+      internalID: 1195677013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_3
+      name: Outfit3_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 486
-        width: 14
-        height: 13
+        x: 128
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6bebb998ee886a488129fee6b06fc55
-      internalID: 271014679
+      spriteID: afbd0095490cabd4c98223f3f9808848
+      internalID: -1736338347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_4
+      name: Outfit3_3
       rect:
         serializedVersion: 2
-        x: 343
-        y: 483
-        width: 18
-        height: 11
+        x: 192
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6adbcfeb413312244bc1b8068f67cdfe
-      internalID: -426134730
+      spriteID: 46480bfcda076344cab01345645f5f18
+      internalID: 1139242611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_5
+      name: Outfit3_4
       rect:
         serializedVersion: 2
-        x: 409
-        y: 487
-        width: 14
-        height: 13
+        x: 256
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adcfc952dd7132945842b91f24ab6a9c
-      internalID: 86967180
+      spriteID: 9e189fcebc6005d44bdd7deb8b0aa8a7
+      internalID: 828935346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_6
+      name: Outfit3_5
       rect:
         serializedVersion: 2
-        x: 472
-        y: 488
-        width: 16
-        height: 10
+        x: 320
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0f8f755fb3fd448b1ec11727ac9c76
-      internalID: 1394267911
+      spriteID: 024ed2bf3efedad40a7e18505eed7431
+      internalID: 501471998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_7
+      name: Outfit3_6
       rect:
         serializedVersion: 2
-        x: 153
-        y: 475
-        width: 14
-        height: 13
+        x: 384
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07db3d5d5c69711429182fd14e2b6cf3
-      internalID: -1442224413
+      spriteID: a855d97ed5966d64ba33ba57214e29ae
+      internalID: -1520593270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_9
+      name: Outfit3_7
       rect:
         serializedVersion: 2
-        x: 89
-        y: 417
-        width: 14
-        height: 16
+        x: 448
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c3fa739b9f7c346b2da309095f2bca
-      internalID: -1907577038
+      spriteID: 9656e0ad66e660644983b4997e92ec51
+      internalID: -1562469568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_10
+      name: Outfit3_8
       rect:
         serializedVersion: 2
-        x: 153
-        y: 418
-        width: 14
-        height: 16
+        x: 0
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9d652649d472194382fbd014e3b57a4
-      internalID: -582506248
+      spriteID: 5241376c5d18b6347911a25391fe9433
+      internalID: 86634638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_11
+      name: Outfit3_9
       rect:
         serializedVersion: 2
-        x: 217
-        y: 418
-        width: 14
-        height: 16
+        x: 64
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00292852c7a96b479cc3f0f607cea72
-      internalID: -1355511727
+      spriteID: ca234dcfe788a924db58821e59e773d3
+      internalID: -1928403410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_12
+      name: Outfit3_10
       rect:
         serializedVersion: 2
-        x: 281
-        y: 414
-        width: 14
-        height: 16
+        x: 128
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7a0762b4caf4e49a85ea6c4175d5ee
-      internalID: 565935512
+      spriteID: 2841496994256414487776ce70d6d36f
+      internalID: -2042809456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_13
+      name: Outfit3_11
       rect:
         serializedVersion: 2
-        x: 343
-        y: 417
-        width: 18
-        height: 12
+        x: 192
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d2856581e64e8459bff58c689c2f29
-      internalID: 46797254
+      spriteID: 6faef58cc3f1e384fb734c5b31c91132
+      internalID: 2115492914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_14
+      name: Outfit3_12
       rect:
         serializedVersion: 2
-        x: 409
-        y: 418
-        width: 14
-        height: 16
+        x: 256
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665cf6aebdb397645ac86b39babfa68f
-      internalID: 1778324207
+      spriteID: f85e4983fc127ff4e9c78b30fd6fbc5d
+      internalID: 1879162565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_15
+      name: Outfit3_13
       rect:
         serializedVersion: 2
-        x: 472
-        y: 419
-        width: 16
-        height: 14
+        x: 320
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0845c5b91533df94ca1f8ee4429cff4e
-      internalID: 1258767193
+      spriteID: 607c7318c34e957478a2a3e54472629c
+      internalID: -1922585043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_17
+      name: Outfit3_14
       rect:
         serializedVersion: 2
-        x: 90
-        y: 357
-        width: 14
-        height: 14
+        x: 384
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc7f1dfcd715704f960c03a3004a100
-      internalID: -3116155
+      spriteID: 4093dfa7ef467174c90d16e2457f4084
+      internalID: 54780690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_18
+      name: Outfit3_15
       rect:
         serializedVersion: 2
-        x: 153
-        y: 356
-        width: 14
-        height: 14
+        x: 448
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e00eff9bd406ef48b5dd4e8d355c72a
-      internalID: 1233552450
+      spriteID: 8d73806a872f4fb4e829a4426bf97ca2
+      internalID: 1378946816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_19
+      name: Outfit3_16
       rect:
         serializedVersion: 2
-        x: 217
-        y: 357
-        width: 14
-        height: 14
+        x: 0
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571443685a5748149a458a2631cff748
-      internalID: 208107546
+      spriteID: 72182d0c8e5a749498abc253b1ff1d92
+      internalID: 887462781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_20
+      name: Outfit3_17
       rect:
         serializedVersion: 2
-        x: 278
-        y: 357
-        width: 14
-        height: 14
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29055f77d729ab48a2b804062ca1b53
-      internalID: 1789935651
+      spriteID: 1398d01579a8b634a967987a1fdf17cc
+      internalID: -1549554327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_21
+      name: Outfit3_18
       rect:
         serializedVersion: 2
-        x: 350
-        y: 353
-        width: 16
-        height: 13
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d302ab18d20dc704698fb6b70e1f2ad0
-      internalID: -348465942
+      spriteID: f0b7956a95ad9814594d35057a85172b
+      internalID: 503602236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_22
+      name: Outfit3_19
       rect:
         serializedVersion: 2
-        x: 410
-        y: 357
-        width: 14
-        height: 14
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45b03880bec1154585805a91d102660
-      internalID: -27392174
+      spriteID: 4cd0bfd5a9698b84fb528983778a9dd8
+      internalID: -1031427870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_23
+      name: Outfit3_20
       rect:
         serializedVersion: 2
-        x: 473
-        y: 357
-        width: 17
-        height: 13
+        x: 256
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c6df4cb8e1474b4e97a5ca0a723db95
-      internalID: -1418586827
+      spriteID: e6f7da95b94d75344908142ace44365f
+      internalID: 1658887925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_25
+      name: Outfit3_21
       rect:
         serializedVersion: 2
-        x: 88
-        y: 293
-        width: 14
-        height: 14
+        x: 320
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99efa11e7e6b5f542a516c2c6a9ac562
-      internalID: -1973040866
+      spriteID: 499a8a2f975dfeb40a8c374a73a28c1c
+      internalID: 121266962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_26
+      name: Outfit3_22
       rect:
         serializedVersion: 2
-        x: 153
-        y: 292
-        width: 14
-        height: 14
+        x: 384
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62e4748142d8dcc439c79cba28665d17
-      internalID: 488111263
+      spriteID: 04c7ce442bfae1c44a2a1836746c208e
+      internalID: -1010891695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_27
+      name: Outfit3_23
       rect:
         serializedVersion: 2
-        x: 217
-        y: 293
-        width: 14
-        height: 14
+        x: 448
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd87287a9d926c47af6b822bea7a2ea
-      internalID: -2024035960
+      spriteID: 0ae912eb44100264e9c964e534b680cd
+      internalID: -297063615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_28
+      name: Outfit3_24
       rect:
         serializedVersion: 2
-        x: 284
-        y: 293
-        width: 14
-        height: 14
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c654379e79e5c94e9197208ccb4fb86
-      internalID: 1837445561
+      spriteID: b8e0bd575def28e4084541e0d45781a8
+      internalID: -445174617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_29
+      name: Outfit3_25
       rect:
         serializedVersion: 2
-        x: 338
-        y: 289
-        width: 16
-        height: 13
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6ca560f6099ffa4ab94c875318440d2
-      internalID: 1848246769
+      spriteID: 5399a1fbae1c0ed49851393cb743c37f
+      internalID: -377732507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_30
+      name: Outfit3_26
       rect:
         serializedVersion: 2
-        x: 408
-        y: 293
-        width: 14
-        height: 14
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3cff4dfc557eba40a57f4ac83c01231
-      internalID: 1117188806
+      spriteID: ed73c4a4a6d8d3c4eb52d8fd4a183918
+      internalID: 1636859198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_31
+      name: Outfit3_27
       rect:
         serializedVersion: 2
-        x: 470
-        y: 293
-        width: 17
-        height: 13
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6c2d0aa0d0ef842ad1606d46026162
-      internalID: 577179552
+      spriteID: fc50e09ac3df00646bb287b900a0cf08
+      internalID: -630886207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_38
+      name: Outfit3_28
       rect:
         serializedVersion: 2
-        x: 408
-        y: 232
-        width: 16
-        height: 13
+        x: 256
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a956147044d454e869b6efe3d40bac
-      internalID: -1100635773
+      spriteID: c5969561de20df04f9de2995c02f4508
+      internalID: -1927644890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_39
+      name: Outfit3_29
       rect:
         serializedVersion: 2
-        x: 472
-        y: 232
-        width: 16
-        height: 13
+        x: 320
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b822d935e3639e4c8b88c3b47b62794
-      internalID: -1838444806
+      spriteID: 989508695b9329749af94652e7c8815b
+      internalID: -221623125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_46
+      name: Outfit3_30
       rect:
         serializedVersion: 2
-        x: 408
-        y: 165
-        width: 16
-        height: 16
+        x: 384
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ebc90184ce32b4baded351fce7c938
-      internalID: -1297010561
+      spriteID: 22cf5d3c149461c40b88d947e0458686
+      internalID: 987182029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_47
+      name: Outfit3_31
       rect:
         serializedVersion: 2
-        x: 472
-        y: 165
-        width: 16
-        height: 16
+        x: 448
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2afccbc63d3e8de40acc526aff4c75fc
-      internalID: -256469746
+      spriteID: 7ae739076aefa3243aa0cd08c475639a
+      internalID: -2039704162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_54
+      name: Outfit3_32
       rect:
         serializedVersion: 2
-        x: 409
-        y: 104
-        width: 16
-        height: 13
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8b82401d81b9e4aacbb86e5d7d4d92
-      internalID: -244150413
+      spriteID: 8224d5ffd5424cd4ebc8697b0cdcb16f
+      internalID: -1811472669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_55
+      name: Outfit3_33
       rect:
         serializedVersion: 2
-        x: 472
-        y: 104
-        width: 17
-        height: 13
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6058a76a529b8428eba7e2a7921ee7
-      internalID: -1659000494
+      spriteID: 5b8d2125e3a5b9940813059e0b42cabb
+      internalID: 135403863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_62
+      name: Outfit3_34
       rect:
         serializedVersion: 2
-        x: 407
-        y: 40
-        width: 16
-        height: 13
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08cfef02850238f46a7bf7ad5468fefe
-      internalID: -1067928957
+      spriteID: 9dc73cae19a705a4ba2b810d69bdbbdd
+      internalID: -1067329035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_63
+      name: Outfit3_35
       rect:
         serializedVersion: 2
-        x: 471
-        y: 40
-        width: 17
-        height: 13
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bd601d673947364f9ee47b91e4cb47a
-      internalID: 1708564184
+      spriteID: cc896476776f46746bf71201af44b1c0
+      internalID: -576378561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stand_front
+      name: Outfit3_36
       rect:
         serializedVersion: 2
-        x: 25
-        y: 486
-        width: 14
-        height: 13
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c6740f97a87c54eaf12a7385ec61a0
-      internalID: -1327778885
+      spriteID: c8ed0ec2321c3f445a4837be0c9c998a
+      internalID: 1519558878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stand_back
+      name: Outfit3_37
       rect:
         serializedVersion: 2
-        x: 25
-        y: 419
-        width: 14
-        height: 16
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3075f0136a4cb08449948eba9cf4d568
-      internalID: 778328738
+      spriteID: 470ea26f6f01d4b43a35c1ff1a5b654e
+      internalID: -588579948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stand_right
+      name: Outfit3_38
       rect:
         serializedVersion: 2
-        x: 25
-        y: 357
-        width: 14
-        height: 14
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28b2c64f441c29b49bb57c55e6c63e2a
-      internalID: -1010323800
+      spriteID: 2cdc04a8c763c0340a1bc0f024e834e9
+      internalID: -1453397452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stand_left
+      name: Outfit3_39
       rect:
         serializedVersion: 2
-        x: 25
-        y: 293
-        width: 14
-        height: 14
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d8be45acc4363469ade2354bab9ca7
-      internalID: 569747337
+      spriteID: 49462032c962b264e8a205bd68cbaab4
+      internalID: 102987960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_1
+      name: Outfit3_40
       rect:
         serializedVersion: 2
-        x: 24
-        y: 229
-        width: 15
-        height: 13
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116085c1ed77eb74aae38ff8f90ce7a2
-      internalID: -1673135562
+      spriteID: ebd9ce5930986c746b530409705f9bcf
+      internalID: 72514540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_2
+      name: Outfit3_41
       rect:
         serializedVersion: 2
-        x: 88
-        y: 230
-        width: 14
-        height: 13
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df54407f19be5dd45a311fe945a772a0
-      internalID: 1532058621
+      spriteID: 4b6de4f1f6233624ab07fb7cfcc91ec3
+      internalID: -1147211202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_3
+      name: Outfit3_42
       rect:
         serializedVersion: 2
-        x: 151
-        y: 230
-        width: 16
-        height: 13
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25bef484506ac284ba0bcc86c8b2017c
-      internalID: 1587905572
+      spriteID: 972032c67190bd344857be638aa1dab4
+      internalID: 803608478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_4
+      name: Outfit3_43
       rect:
         serializedVersion: 2
-        x: 217
-        y: 229
-        width: 15
-        height: 13
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6faa84ea1243f44b9bee32ebff35209
-      internalID: 1589296537
+      spriteID: 00f850592519f184d9a98c3c1f8c7ff7
+      internalID: -1472988614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_5
+      name: Outfit3_44
       rect:
         serializedVersion: 2
-        x: 282
-        y: 230
-        width: 14
-        height: 13
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bcd0c1379176f94ab792e4d3407cf67
-      internalID: -1760240246
+      spriteID: e6972db1a18bcd04bab717bab7fa6097
+      internalID: -445578832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_front_6
+      name: Outfit3_45
       rect:
         serializedVersion: 2
-        x: 345
-        y: 230
-        width: 16
-        height: 13
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b798bf4c28083584ba18cd22ebe592fb
-      internalID: -1298567372
+      spriteID: 76506aa6602b7ca44a2149ca472c43bd
+      internalID: 1735793773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_1
+      name: Outfit3_46
       rect:
         serializedVersion: 2
-        x: 25
-        y: 162
-        width: 15
-        height: 16
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b39d0cf53f52a0042af2af2a650ec1b1
-      internalID: 1442871280
+      spriteID: 26025a2096d497e40af5f9c7fbe78e9c
+      internalID: -263309740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_2
+      name: Outfit3_47
       rect:
         serializedVersion: 2
-        x: 90
-        y: 163
-        width: 14
-        height: 16
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42731c468cf80d9428f44b003dd5a1d1
-      internalID: 1737952709
+      spriteID: fed418aaf6e8cd64ea6da32a4cdc60de
+      internalID: -884745330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_3
+      name: Outfit3_48
       rect:
         serializedVersion: 2
-        x: 153
-        y: 163
-        width: 16
-        height: 16
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f3326ce040053c418945b1cbbb22559
-      internalID: 1734869022
+      spriteID: 427c8589dc50676479653438fdd9a40d
+      internalID: -1511290891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_4
+      name: Outfit3_49
       rect:
         serializedVersion: 2
-        x: 216
-        y: 162
-        width: 15
-        height: 16
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44c3121f2260b984487eafd2886e86c0
-      internalID: 1311061914
+      spriteID: 8dee1d6f26af5784b808e56ce23a68ee
+      internalID: 1029688619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_5
+      name: Outfit3_50
       rect:
         serializedVersion: 2
-        x: 280
-        y: 163
-        width: 14
-        height: 16
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab0242bbf51326f4f894568b23764ed5
-      internalID: 1391713468
+      spriteID: f2d129dbb1aa7354dadf3fc9d1a6ace4
+      internalID: 608720428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_back_6
+      name: Outfit3_51
       rect:
         serializedVersion: 2
-        x: 343
-        y: 163
-        width: 16
-        height: 16
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d67032d309ce71449add5183b457436
-      internalID: 109581983
+      spriteID: 1101f57f71a86b0429dd6d20909c839e
+      internalID: -1766918631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_1
+      name: Outfit3_52
       rect:
         serializedVersion: 2
-        x: 23
-        y: 101
-        width: 16
-        height: 14
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a68bb7125cad0841bd92c2457db541f
-      internalID: -1867367222
+      spriteID: 111441957d6710747a22d8c32870a11a
+      internalID: -612705437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_2
+      name: Outfit3_53
       rect:
         serializedVersion: 2
-        x: 88
-        y: 101
-        width: 15
-        height: 14
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e69a2f146378f9469217e076f5410da
-      internalID: 260448477
+      spriteID: ac0eabce3c49ae1499b87f2001b91fd2
+      internalID: 807439508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_3
+      name: Outfit3_54
       rect:
         serializedVersion: 2
-        x: 151
-        y: 101
-        width: 16
-        height: 13
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62f8e3359af4a840bc2d72243039a52
-      internalID: 698409112
+      spriteID: 7fc76bbc4cff58f4aa708fa9ecc9b16b
+      internalID: -1962599205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_4
+      name: Outfit3_55
       rect:
         serializedVersion: 2
-        x: 215
-        y: 101
-        width: 16
-        height: 14
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb75156bb7b22b489746a5935ecf285
-      internalID: -545182721
+      spriteID: fde78515c1d5ddd4994686b23eebc51d
+      internalID: -1234010319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_5
+      name: Outfit3_56
       rect:
         serializedVersion: 2
-        x: 280
-        y: 101
-        width: 15
-        height: 14
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4c610a1a81ba2a499959c20a240de56
-      internalID: -123346858
+      spriteID: 4aa7a143275dab84a97aa76a904e63fb
+      internalID: 2102172653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_right_6
+      name: Outfit3_57
       rect:
         serializedVersion: 2
-        x: 342
-        y: 101
-        width: 17
-        height: 13
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295a8cd474af5a948b839be7d1e318f2
-      internalID: 1002055456
+      spriteID: 4673c70b3ddcbda4f9ebcb10bca57aa5
+      internalID: -1797102081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_1
+      name: Outfit3_58
       rect:
         serializedVersion: 2
-        x: 25
-        y: 37
-        width: 16
-        height: 14
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93f0942775317b84ebb3beb807bd8942
-      internalID: -995893804
+      spriteID: 08d23861f16f2d54985a89749e525f6b
+      internalID: -920753221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_2
+      name: Outfit3_59
       rect:
         serializedVersion: 2
-        x: 89
-        y: 37
-        width: 15
-        height: 14
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7908628a8bd3454f818329c394793de
-      internalID: -877001570
+      spriteID: 61c53befa1a9a274da43399e61020d08
+      internalID: 2045932371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_3
+      name: Outfit3_60
       rect:
         serializedVersion: 2
-        x: 153
-        y: 37
-        width: 16
-        height: 13
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a4619f5e782d6f4c92f6723ea7979e7
-      internalID: 1270676729
+      spriteID: 57a31be3fa432ee45bdef5e034dc9122
+      internalID: -416776300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_4
+      name: Outfit3_61
       rect:
         serializedVersion: 2
-        x: 217
-        y: 37
-        width: 16
-        height: 14
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc3b18d1c3e9a743a941d0bb90516f0
-      internalID: -278726974
+      spriteID: b136efc107adf5c4f927861d583d66c3
+      internalID: -1968570807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_5
+      name: Outfit3_62
       rect:
         serializedVersion: 2
-        x: 281
-        y: 37
-        width: 15
-        height: 14
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e160690abfd83ed47aa7bf8a68ace665
-      internalID: -686998048
+      spriteID: 68527f00115d0fc4ca5eda4624398e81
+      internalID: -140000079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_left_6
+      name: Outfit3_63
       rect:
         serializedVersion: 2
-        x: 345
-        y: 37
-        width: 17
-        height: 13
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8ce31a5fbc4f2042aac652c865b33f2
-      internalID: 482851735
+      spriteID: 736ed21b10d5bd74ab9e3c5a97806f26
+      internalID: -797778079
       vertices: []
       indices: 
       edges: []
@@ -1477,70 +1477,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hair1_1: -1196135675
-      Hair1_10: -582506248
-      Hair1_11: -1355511727
-      Hair1_12: 565935512
-      Hair1_13: 46797254
-      Hair1_14: 1778324207
-      Hair1_15: 1258767193
-      Hair1_17: -3116155
-      Hair1_18: 1233552450
-      Hair1_19: 208107546
-      Hair1_2: -1921857408
-      Hair1_20: 1789935651
-      Hair1_21: -348465942
-      Hair1_22: -27392174
-      Hair1_23: -1418586827
-      Hair1_25: -1973040866
-      Hair1_26: 488111263
-      Hair1_27: -2024035960
-      Hair1_28: 1837445561
-      Hair1_29: 1848246769
-      Hair1_3: 271014679
-      Hair1_30: 1117188806
-      Hair1_31: 577179552
-      Hair1_38: -1100635773
-      Hair1_39: -1838444806
-      Hair1_4: -426134730
-      Hair1_46: -1297010561
-      Hair1_47: -256469746
-      Hair1_5: 86967180
-      Hair1_54: -244150413
-      Hair1_55: -1659000494
-      Hair1_6: 1394267911
-      Hair1_62: -1067928957
-      Hair1_63: 1708564184
-      Hair1_7: -1442224413
-      Hair1_9: -1907577038
-      stand_back: 778328738
-      stand_front: -1327778885
-      stand_left: 569747337
-      stand_right: -1010323800
-      walk_back_1: 1442871280
-      walk_back_2: 1737952709
-      walk_back_3: 1734869022
-      walk_back_4: 1311061914
-      walk_back_5: 1391713468
-      walk_back_6: 109581983
-      walk_front_1: -1673135562
-      walk_front_2: 1532058621
-      walk_front_3: 1587905572
-      walk_front_4: 1589296537
-      walk_front_5: -1760240246
-      walk_front_6: -1298567372
-      walk_left_1: -995893804
-      walk_left_2: -877001570
-      walk_left_3: 1270676729
-      walk_left_4: -278726974
-      walk_left_5: -686998048
-      walk_left_6: 482851735
-      walk_right_1: -1867367222
-      walk_right_2: 260448477
-      walk_right_3: 698409112
-      walk_right_4: -545182721
-      walk_right_5: -123346858
-      walk_right_6: 1002055456
+      Outfit3_0: 1562997867
+      Outfit3_1: 1195677013
+      Outfit3_10: -2042809456
+      Outfit3_11: 2115492914
+      Outfit3_12: 1879162565
+      Outfit3_13: -1922585043
+      Outfit3_14: 54780690
+      Outfit3_15: 1378946816
+      Outfit3_16: 887462781
+      Outfit3_17: -1549554327
+      Outfit3_18: 503602236
+      Outfit3_19: -1031427870
+      Outfit3_2: -1736338347
+      Outfit3_20: 1658887925
+      Outfit3_21: 121266962
+      Outfit3_22: -1010891695
+      Outfit3_23: -297063615
+      Outfit3_24: -445174617
+      Outfit3_25: -377732507
+      Outfit3_26: 1636859198
+      Outfit3_27: -630886207
+      Outfit3_28: -1927644890
+      Outfit3_29: -221623125
+      Outfit3_3: 1139242611
+      Outfit3_30: 987182029
+      Outfit3_31: -2039704162
+      Outfit3_32: -1811472669
+      Outfit3_33: 135403863
+      Outfit3_34: -1067329035
+      Outfit3_35: -576378561
+      Outfit3_36: 1519558878
+      Outfit3_37: -588579948
+      Outfit3_38: -1453397452
+      Outfit3_39: 102987960
+      Outfit3_4: 828935346
+      Outfit3_40: 72514540
+      Outfit3_41: -1147211202
+      Outfit3_42: 803608478
+      Outfit3_43: -1472988614
+      Outfit3_44: -445578832
+      Outfit3_45: 1735793773
+      Outfit3_46: -263309740
+      Outfit3_47: -884745330
+      Outfit3_48: -1511290891
+      Outfit3_49: 1029688619
+      Outfit3_5: 501471998
+      Outfit3_50: 608720428
+      Outfit3_51: -1766918631
+      Outfit3_52: -612705437
+      Outfit3_53: 807439508
+      Outfit3_54: -1962599205
+      Outfit3_55: -1234010319
+      Outfit3_56: 2102172653
+      Outfit3_57: -1797102081
+      Outfit3_58: -920753221
+      Outfit3_59: 2045932371
+      Outfit3_6: -1520593270
+      Outfit3_60: -416776300
+      Outfit3_61: -1968570807
+      Outfit3_62: -140000079
+      Outfit3_63: -797778079
+      Outfit3_7: -1562469568
+      Outfit3_8: 86634638
+      Outfit3_9: -1928403410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

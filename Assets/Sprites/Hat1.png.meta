@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06e1fdaa1ceae3b46b0a4237a4816388
+guid: d81578552962d8247881fa90e64eedbb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,1345 +123,1345 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hair1_1
+      name: Hat1_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 476
+        x: 25
+        y: 485
         width: 14
-        height: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ca4c898ed17a3b4d98bdfdf018527eb
-      internalID: -1196135675
+      spriteID: 8db57a44cd428eb4cb80f0b5fdaaf34d
+      internalID: -1115218025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_2
+      name: Hat1_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 475
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27535da8bd9f89c418d885c1df2c3da4
+      internalID: -369825071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 475
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd5ac4343a8f24f894b28a630402c7
+      internalID: 1891654392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_3
       rect:
         serializedVersion: 2
         x: 216
         y: 482
         width: 14
-        height: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6e4e6326bfeadc4788708dc4affe93d
-      internalID: -1921857408
+      spriteID: d588cca6d44a13446a597d32c03a2074
+      internalID: -619869354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_3
+      name: Hat1_4
       rect:
         serializedVersion: 2
         x: 280
         y: 486
         width: 14
-        height: 13
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6bebb998ee886a488129fee6b06fc55
-      internalID: 271014679
+      spriteID: be953860f62f6e54487fe514db7abd89
+      internalID: -1942226167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_4
+      name: Hat1_5
       rect:
         serializedVersion: 2
-        x: 343
-        y: 483
-        width: 18
-        height: 11
+        x: 344
+        y: 480
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6adbcfeb413312244bc1b8068f67cdfe
-      internalID: -426134730
+      spriteID: 3bc183c8cdf16d04a8225c37105c48cc
+      internalID: 782199936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_5
+      name: Hat1_6
       rect:
         serializedVersion: 2
         x: 409
-        y: 487
+        y: 486
         width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adcfc952dd7132945842b91f24ab6a9c
-      internalID: 86967180
+      spriteID: 42212e17a1b7b8440a5b4dd7c30604af
+      internalID: -1384562718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_6
+      name: Hat1_7
       rect:
         serializedVersion: 2
         x: 472
-        y: 488
+        y: 485
         width: 16
-        height: 10
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0f8f755fb3fd448b1ec11727ac9c76
-      internalID: 1394267911
+      spriteID: 146f56500ee7a104e9e1a30938b69750
+      internalID: 684458600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_7
+      name: Hat1_8
       rect:
         serializedVersion: 2
-        x: 153
-        y: 475
+        x: 25
+        y: 422
         width: 14
-        height: 13
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07db3d5d5c69711429182fd14e2b6cf3
-      internalID: -1442224413
+      spriteID: efb9805e685133242bdc67931b0e5ca2
+      internalID: 14417819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_9
+      name: Hat1_9
       rect:
         serializedVersion: 2
         x: 89
-        y: 417
+        y: 419
         width: 14
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94c3fa739b9f7c346b2da309095f2bca
-      internalID: -1907577038
+      spriteID: e0dfc1d80d7f6b04f8338989d8e07707
+      internalID: -882800864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_10
+      name: Hat1_10
       rect:
         serializedVersion: 2
         x: 153
-        y: 418
+        y: 420
         width: 14
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9d652649d472194382fbd014e3b57a4
-      internalID: -582506248
+      spriteID: 83756297320149b47a509a0c914f419b
+      internalID: -1263889759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_11
+      name: Hat1_11
       rect:
         serializedVersion: 2
         x: 217
+        y: 420
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d3779bbe05274096ae90e9d0ca8cc
+      internalID: -884917242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_12
+      rect:
+        serializedVersion: 2
+        x: 280
         y: 418
-        width: 14
-        height: 16
+        width: 16
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00292852c7a96b479cc3f0f607cea72
-      internalID: -1355511727
+      spriteID: 30c6eabf419f153418270b0bed5cca80
+      internalID: 980586432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_12
+      name: Hat1_13
       rect:
         serializedVersion: 2
-        x: 281
-        y: 414
-        width: 14
-        height: 16
+        x: 344
+        y: 416
+        width: 16
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae7a0762b4caf4e49a85ea6c4175d5ee
-      internalID: 565935512
+      spriteID: 4ac1a8c1292658243a9ae056912a37fb
+      internalID: 1990931536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_13
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 417
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57d2856581e64e8459bff58c689c2f29
-      internalID: 46797254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_14
+      name: Hat1_14
       rect:
         serializedVersion: 2
         x: 409
-        y: 418
+        y: 420
         width: 14
-        height: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665cf6aebdb397645ac86b39babfa68f
-      internalID: 1778324207
+      spriteID: f4d20ec036da64545a445430965fcf40
+      internalID: -1887266840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_15
+      name: Hat1_15
       rect:
         serializedVersion: 2
         x: 472
-        y: 419
+        y: 421
         width: 16
-        height: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0845c5b91533df94ca1f8ee4429cff4e
-      internalID: 1258767193
+      spriteID: 1955ea55a18ffed46bdfcbe67c16962c
+      internalID: 1108453390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_17
+      name: Hat1_16
       rect:
         serializedVersion: 2
-        x: 90
-        y: 357
-        width: 14
-        height: 14
+        x: 24
+        y: 355
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc7f1dfcd715704f960c03a3004a100
-      internalID: -3116155
+      spriteID: a22e67640b0d9cf408f8d3a45838c3e9
+      internalID: -357977241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_18
+      name: Hat1_17
       rect:
         serializedVersion: 2
-        x: 153
+        x: 89
+        y: 355
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cb8801e5ab26e478c8f97dd1d01d84
+      internalID: -1495173814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 354
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9d32364c8d3144587b118c97f5e1a4
+      internalID: 485330160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 355
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7b4339ab53df84c8e1c18f4a4edff0
+      internalID: 2006914061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 354
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff171bee2f3bc46a354e8fd47623cd
+      internalID: 1790937137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7f32b32acb5ea4f81c8d7b3534dc48
+      internalID: -1785151504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_22
+      rect:
+        serializedVersion: 2
+        x: 408
         y: 356
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e00eff9bd406ef48b5dd4e8d355c72a
-      internalID: 1233552450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_19
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 357
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 571443685a5748149a458a2631cff748
-      internalID: 208107546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_20
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 357
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a29055f77d729ab48a2b804062ca1b53
-      internalID: 1789935651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_21
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 353
         width: 16
-        height: 13
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d302ab18d20dc704698fb6b70e1f2ad0
-      internalID: -348465942
+      spriteID: eb921aa5d9592bf4caf4ef828beda4fb
+      internalID: 1087763343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_22
+      name: Hat1_23
       rect:
         serializedVersion: 2
-        x: 410
-        y: 357
-        width: 14
-        height: 14
+        x: 475
+        y: 356
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a45b03880bec1154585805a91d102660
-      internalID: -27392174
+      spriteID: ca0f38258a97b144687e051e1df199e6
+      internalID: -1177704117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_23
+      name: Hat1_24
       rect:
         serializedVersion: 2
-        x: 473
-        y: 357
-        width: 17
-        height: 13
+        x: 25
+        y: 291
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c6df4cb8e1474b4e97a5ca0a723db95
-      internalID: -1418586827
+      spriteID: f99cd60d7683a3141abd76007c2393f8
+      internalID: 441901382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_25
+      name: Hat1_25
       rect:
         serializedVersion: 2
         x: 88
-        y: 293
-        width: 14
-        height: 14
+        y: 291
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99efa11e7e6b5f542a516c2c6a9ac562
-      internalID: -1973040866
+      spriteID: fa2944c19f3a8644d8c755fe25790474
+      internalID: 2083997697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_26
+      name: Hat1_26
       rect:
         serializedVersion: 2
         x: 153
-        y: 292
-        width: 14
-        height: 14
+        y: 290
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62e4748142d8dcc439c79cba28665d17
-      internalID: 488111263
+      spriteID: 70030d167382044448d2b813bc18732a
+      internalID: -695095853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_27
+      name: Hat1_27
       rect:
         serializedVersion: 2
         x: 217
-        y: 293
-        width: 14
-        height: 14
+        y: 291
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd87287a9d926c47af6b822bea7a2ea
-      internalID: -2024035960
+      spriteID: 220e186a9a4f5e7448c3c4f95ca4624a
+      internalID: 273649426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_28
+      name: Hat1_28
       rect:
         serializedVersion: 2
         x: 284
-        y: 293
-        width: 14
-        height: 14
+        y: 290
+        width: 15
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c654379e79e5c94e9197208ccb4fb86
-      internalID: 1837445561
+      spriteID: b5d1ffc1b2a6aa3478f676257ec7703a
+      internalID: -1150942816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_29
+      name: Hat1_29
       rect:
         serializedVersion: 2
-        x: 338
-        y: 289
+        x: 337
+        y: 287
         width: 16
-        height: 13
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6ca560f6099ffa4ab94c875318440d2
-      internalID: 1848246769
+      spriteID: 0eb5024b122ad6d4aab4152761353cf4
+      internalID: -568583763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_30
+      name: Hat1_30
       rect:
         serializedVersion: 2
         x: 408
-        y: 293
-        width: 14
-        height: 14
+        y: 292
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3cff4dfc557eba40a57f4ac83c01231
-      internalID: 1117188806
+      spriteID: 511496cd2fd733148ab8753e5e617933
+      internalID: 113333254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_31
+      name: Hat1_31
       rect:
         serializedVersion: 2
         x: 470
-        y: 293
-        width: 17
-        height: 13
+        y: 292
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6c2d0aa0d0ef842ad1606d46026162
-      internalID: 577179552
+      spriteID: 74274b2ddb5c3ed4584fecc2f0acd5a8
+      internalID: -2066118560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_38
+      name: Hat1_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786ad1489246614d87f51f828613cfe
+      internalID: 1323124345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d943da6c0a32734abead47f6ff2f9d5
+      internalID: -2020358488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_34
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee5c02c6f299764ebb0425d7c5d9758
+      internalID: -182668547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_35
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 228
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b453bc9aa53c65f4198fea5209290d11
+      internalID: 916827280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc30510ca6cfed4288b88596b56824a
+      internalID: 882494369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_37
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371249ba7a0f18b4caba2e069ca1f51e
+      internalID: -432625883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 231
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194e077efd30b524496529ae2c3f3e7f
+      internalID: -895408140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_39
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 231
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af029ce7fce6ea04a83b1e3ce5ea0e54
+      internalID: -842503191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_40
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c631e17c23bb01549aab0e1f7af9f093
+      internalID: -1956968972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 165
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458d948713a99b641a4d541845d50841
+      internalID: 278713028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 166
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b76317150d0a141b7c9badf10c9415
+      internalID: 1831542306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_43
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 164
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a08f6a0740a3844d81bfa4ebf5f8bab
+      internalID: -72944388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 165
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30127d22f49fb174fbe4a98ec12f2356
+      internalID: -7014505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 166
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8744354a3aa935446aa72713c9fb5580
+      internalID: 451379865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_46
       rect:
         serializedVersion: 2
         x: 408
-        y: 232
-        width: 16
-        height: 13
+        y: 167
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a956147044d454e869b6efe3d40bac
-      internalID: -1100635773
+      spriteID: dcb495058e78fb7499e92d4a026c226e
+      internalID: -1136749788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_39
+      name: Hat1_47
       rect:
         serializedVersion: 2
-        x: 472
-        y: 232
-        width: 16
-        height: 13
+        x: 474
+        y: 167
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b822d935e3639e4c8b88c3b47b62794
-      internalID: -1838444806
+      spriteID: bbc842e89742f5a4cb3ea218b8387f67
+      internalID: 517519425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_46
+      name: Hat1_48
       rect:
         serializedVersion: 2
-        x: 408
-        y: 165
-        width: 16
+        x: 24
+        y: 99
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59d4d949afe364d9a7f20564602758
+      internalID: -1820326143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_49
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 99
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4dec72719001459e504321f677bcb
+      internalID: 783048358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_50
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 100
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d6bb7832e27064588dff7890d9c27a
+      internalID: -171005618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 99
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc88f566c18b443488adc015c3b73a85
+      internalID: 1119952995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 99
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab163a211e54834591fff51dbd2ae17
+      internalID: -1722589139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_53
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 99
+        width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ebc90184ce32b4baded351fce7c938
-      internalID: -1297010561
+      spriteID: 4fdb99f02fb273847ada8d3c58f5ce7a
+      internalID: -1883914528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_47
+      name: Hat1_54
       rect:
         serializedVersion: 2
-        x: 472
-        y: 165
-        width: 16
+        x: 410
+        y: 104
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81f5f948f43a9c4fab080d2d7e0fd6b
+      internalID: 1520426743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_55
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 104
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713972f24ea950c4991b617c5abef8b5
+      internalID: 669359351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_56
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 35
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26edfdf66cf2c2a47a9d830975cadbcf
+      internalID: -1180974216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_57
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 35
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901eddcba7d8ecc4d81d2e0412fe2a59
+      internalID: -1741442345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_58
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 36
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b19f29a542b3ff408d856b7ae330641
+      internalID: 446278270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_59
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 35
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e8bc8754d0a54da206d70023eaf53
+      internalID: -1671408369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_60
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 35
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cfe869df26e8340b48b64622ff839d
+      internalID: -2072533910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hat1_61
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 35
+        width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2afccbc63d3e8de40acc526aff4c75fc
-      internalID: -256469746
+      spriteID: 3d9d1ba039b76734ba1a0c115b51473a
+      internalID: 62047942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_54
-      rect:
-        serializedVersion: 2
-        x: 409
-        y: 104
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c8b82401d81b9e4aacbb86e5d7d4d92
-      internalID: -244150413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_55
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 104
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a6058a76a529b8428eba7e2a7921ee7
-      internalID: -1659000494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hair1_62
+      name: Hat1_62
       rect:
         serializedVersion: 2
         x: 407
         y: 40
-        width: 16
-        height: 13
+        width: 15
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08cfef02850238f46a7bf7ad5468fefe
-      internalID: -1067928957
+      spriteID: 1ff0324d57789424380b00fa18ad3bbb
+      internalID: -1548168018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hair1_63
+      name: Hat1_63
       rect:
         serializedVersion: 2
         x: 471
         y: 40
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bd601d673947364f9ee47b91e4cb47a
-      internalID: 1708564184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stand_front
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 486
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7c6740f97a87c54eaf12a7385ec61a0
-      internalID: -1327778885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stand_back
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 419
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3075f0136a4cb08449948eba9cf4d568
-      internalID: 778328738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stand_right
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 357
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28b2c64f441c29b49bb57c55e6c63e2a
-      internalID: -1010323800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stand_left
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 293
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d8be45acc4363469ade2354bab9ca7
-      internalID: 569747337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 229
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 116085c1ed77eb74aae38ff8f90ce7a2
-      internalID: -1673135562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 230
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df54407f19be5dd45a311fe945a772a0
-      internalID: 1532058621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 230
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25bef484506ac284ba0bcc86c8b2017c
-      internalID: 1587905572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_4
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 229
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6faa84ea1243f44b9bee32ebff35209
-      internalID: 1589296537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_5
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 230
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bcd0c1379176f94ab792e4d3407cf67
-      internalID: -1760240246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_front_6
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 230
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b798bf4c28083584ba18cd22ebe592fb
-      internalID: -1298567372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_1
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 162
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b39d0cf53f52a0042af2af2a650ec1b1
-      internalID: 1442871280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 163
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42731c468cf80d9428f44b003dd5a1d1
-      internalID: 1737952709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_3
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 163
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f3326ce040053c418945b1cbbb22559
-      internalID: 1734869022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_4
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 162
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44c3121f2260b984487eafd2886e86c0
-      internalID: 1311061914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_5
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 163
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab0242bbf51326f4f894568b23764ed5
-      internalID: 1391713468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_back_6
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 163
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d67032d309ce71449add5183b457436
-      internalID: 109581983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_1
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 101
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a68bb7125cad0841bd92c2457db541f
-      internalID: -1867367222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 101
         width: 15
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e69a2f146378f9469217e076f5410da
-      internalID: 260448477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 101
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d62f8e3359af4a840bc2d72243039a52
-      internalID: 698409112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_4
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 101
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beb75156bb7b22b489746a5935ecf285
-      internalID: -545182721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_5
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 101
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4c610a1a81ba2a499959c20a240de56
-      internalID: -123346858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_right_6
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 101
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 295a8cd474af5a948b839be7d1e318f2
-      internalID: 1002055456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_1
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 37
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93f0942775317b84ebb3beb807bd8942
-      internalID: -995893804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_2
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 37
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7908628a8bd3454f818329c394793de
-      internalID: -877001570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_3
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 37
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a4619f5e782d6f4c92f6723ea7979e7
-      internalID: 1270676729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_4
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 37
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bc3b18d1c3e9a743a941d0bb90516f0
-      internalID: -278726974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_5
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 37
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e160690abfd83ed47aa7bf8a68ace665
-      internalID: -686998048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_left_6
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 37
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8ce31a5fbc4f2042aac652c865b33f2
-      internalID: 482851735
+      spriteID: 8a4738e900a990642b02972223b008d2
+      internalID: -1050796896
       vertices: []
       indices: 
       edges: []
@@ -1477,70 +1477,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hair1_1: -1196135675
-      Hair1_10: -582506248
-      Hair1_11: -1355511727
-      Hair1_12: 565935512
-      Hair1_13: 46797254
-      Hair1_14: 1778324207
-      Hair1_15: 1258767193
-      Hair1_17: -3116155
-      Hair1_18: 1233552450
-      Hair1_19: 208107546
-      Hair1_2: -1921857408
-      Hair1_20: 1789935651
-      Hair1_21: -348465942
-      Hair1_22: -27392174
-      Hair1_23: -1418586827
-      Hair1_25: -1973040866
-      Hair1_26: 488111263
-      Hair1_27: -2024035960
-      Hair1_28: 1837445561
-      Hair1_29: 1848246769
-      Hair1_3: 271014679
-      Hair1_30: 1117188806
-      Hair1_31: 577179552
-      Hair1_38: -1100635773
-      Hair1_39: -1838444806
-      Hair1_4: -426134730
-      Hair1_46: -1297010561
-      Hair1_47: -256469746
-      Hair1_5: 86967180
-      Hair1_54: -244150413
-      Hair1_55: -1659000494
-      Hair1_6: 1394267911
-      Hair1_62: -1067928957
-      Hair1_63: 1708564184
-      Hair1_7: -1442224413
-      Hair1_9: -1907577038
-      stand_back: 778328738
-      stand_front: -1327778885
-      stand_left: 569747337
-      stand_right: -1010323800
-      walk_back_1: 1442871280
-      walk_back_2: 1737952709
-      walk_back_3: 1734869022
-      walk_back_4: 1311061914
-      walk_back_5: 1391713468
-      walk_back_6: 109581983
-      walk_front_1: -1673135562
-      walk_front_2: 1532058621
-      walk_front_3: 1587905572
-      walk_front_4: 1589296537
-      walk_front_5: -1760240246
-      walk_front_6: -1298567372
-      walk_left_1: -995893804
-      walk_left_2: -877001570
-      walk_left_3: 1270676729
-      walk_left_4: -278726974
-      walk_left_5: -686998048
-      walk_left_6: 482851735
-      walk_right_1: -1867367222
-      walk_right_2: 260448477
-      walk_right_3: 698409112
-      walk_right_4: -545182721
-      walk_right_5: -123346858
-      walk_right_6: 1002055456
+      Hat1_0: -1115218025
+      Hat1_1: -369825071
+      Hat1_10: -1263889759
+      Hat1_11: -884917242
+      Hat1_12: 980586432
+      Hat1_13: 1990931536
+      Hat1_14: -1887266840
+      Hat1_15: 1108453390
+      Hat1_16: -357977241
+      Hat1_17: -1495173814
+      Hat1_18: 485330160
+      Hat1_19: 2006914061
+      Hat1_2: 1891654392
+      Hat1_20: 1790937137
+      Hat1_21: -1785151504
+      Hat1_22: 1087763343
+      Hat1_23: -1177704117
+      Hat1_24: 441901382
+      Hat1_25: 2083997697
+      Hat1_26: -695095853
+      Hat1_27: 273649426
+      Hat1_28: -1150942816
+      Hat1_29: -568583763
+      Hat1_3: -619869354
+      Hat1_30: 113333254
+      Hat1_31: -2066118560
+      Hat1_32: 1323124345
+      Hat1_33: -2020358488
+      Hat1_34: -182668547
+      Hat1_35: 916827280
+      Hat1_36: 882494369
+      Hat1_37: -432625883
+      Hat1_38: -895408140
+      Hat1_39: -842503191
+      Hat1_4: -1942226167
+      Hat1_40: -1956968972
+      Hat1_41: 278713028
+      Hat1_42: 1831542306
+      Hat1_43: -72944388
+      Hat1_44: -7014505
+      Hat1_45: 451379865
+      Hat1_46: -1136749788
+      Hat1_47: 517519425
+      Hat1_48: -1820326143
+      Hat1_49: 783048358
+      Hat1_5: 782199936
+      Hat1_50: -171005618
+      Hat1_51: 1119952995
+      Hat1_52: -1722589139
+      Hat1_53: -1883914528
+      Hat1_54: 1520426743
+      Hat1_55: 669359351
+      Hat1_56: -1180974216
+      Hat1_57: -1741442345
+      Hat1_58: 446278270
+      Hat1_59: -1671408369
+      Hat1_6: -1384562718
+      Hat1_60: -2072533910
+      Hat1_61: 62047942
+      Hat1_62: -1548168018
+      Hat1_63: -1050796896
+      Hat1_7: 684458600
+      Hat1_8: 14417819
+      Hat1_9: -882800864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
