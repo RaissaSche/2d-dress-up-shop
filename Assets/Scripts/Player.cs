@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour {
 
     [Range(0, .3f)] [SerializeField] private float movementDampening = .05f;
     [SerializeField] private Rigidbody2D playerRigidbody2D;
-    [SerializeField] private Animator animator;
+    [SerializeField] private Animator characterAnimator, clothesAnimator, hairAnimator;
 
     private void Update() {
         _horizontalMovement = Input.GetAxisRaw("Horizontal");
@@ -21,9 +21,9 @@ public class PlayerMovement : MonoBehaviour {
         Move(_horizontalMovement * moveSpeed * Time.fixedDeltaTime, false);
         Move(_verticalMovement * moveSpeed * Time.fixedDeltaTime, true);
 
-        if (animator != null) {
+        if (characterAnimator != null) {
             if (_horizontalMovement is -1 or 1) {
-                animator.SetTrigger("Side");
+                SetSideAnimation();
 
                 switch (_horizontalMovement) {
                     case > 0 when !_facingLeft:
@@ -34,15 +34,39 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             else if (_verticalMovement is 1) {
-                animator.SetTrigger("Back");
+                SetBackAnimation();
             }
             else if (_verticalMovement is -1) {
-                animator.SetTrigger("Front");
+                SetFrontAnimation();
             }
             else if (_verticalMovement is 0 || _horizontalMovement is 0) {
-                animator.SetTrigger("Idle");
+                SetIdleAnimation();
             }
         }
+    }
+
+    private void SetIdleAnimation() {
+        characterAnimator.SetTrigger("Idle");
+        clothesAnimator.SetTrigger("Idle");
+        hairAnimator.SetTrigger("Idle");
+    }
+
+    private void SetFrontAnimation() {
+        characterAnimator.SetTrigger("Front");
+        clothesAnimator.SetTrigger("Front");
+        hairAnimator.SetTrigger("Front");
+    }
+
+    private void SetBackAnimation() {
+        characterAnimator.SetTrigger("Back");
+        clothesAnimator.SetTrigger("Back");
+        hairAnimator.SetTrigger("Back");
+    }
+
+    private void SetSideAnimation() {
+        characterAnimator.SetTrigger("Side");
+        clothesAnimator.SetTrigger("Side");
+        hairAnimator.SetTrigger("Side");
     }
 
     private void Move(float movement, bool isVertical) {
