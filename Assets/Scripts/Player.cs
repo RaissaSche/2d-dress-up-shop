@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
     }
-    
+
     private void Move(float movement, bool isVertical) {
         Vector2 playerVelocity = playerRigidbody2D.velocity;
 
