@@ -2,6 +2,14 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum Item {
+    GoldOutfit,
+    BlueOutfit,
+    SilverOutfit,
+    SilverHair,
+    BrownHat,
+    WitchHat
+};
 public class Inventory : MonoBehaviour {
     private int _money = 2000;
     [SerializeField] private Text currentMoney;
@@ -18,16 +26,6 @@ public class Inventory : MonoBehaviour {
 
     [SerializeField]
     private Button goldOutfitSell, blueOutfitSell, silverOutfitSell, silverHairSell, brownHatSell, witchHatSell;
-
-
-    public enum Item {
-        GoldOutfit,
-        BlueOutfit,
-        SilverOutfit,
-        SilverHair,
-        BrownHat,
-        WitchHat
-    };
 
     public void Buy(int item) {
         Item enumItem = (Item) item;
