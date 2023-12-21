@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,9 @@ public enum Item {
 };
 
 public class Inventory : MonoBehaviour {
+    
+    public static event Action<int> SellAction;
+    public Dictionary<Item, bool> itemsOwned;
     private int _money = 2000;
     [SerializeField] private Text currentMoney;
 
@@ -27,6 +31,19 @@ public class Inventory : MonoBehaviour {
 
     [SerializeField]
     private Button goldOutfitSell, blueOutfitSell, silverOutfitSell, silverHairSell, brownHatSell, witchHatSell;
+
+    public void Start() {
+        itemsOwned = new Dictionary<Item, bool> {
+            {Item.GoldOutfit, false},
+            {Item.BlueOutfit, false},
+            {Item.SilverOutfit, false},
+            {Item.SilverHair, false},
+            {Item.BrownHat, false},
+            {Item.WitchHat, false}
+        };
+        
+        Buy(0);
+    }
 
     public void Buy(int item) {
         Item enumItem = (Item) item;
@@ -77,7 +94,7 @@ public class Inventory : MonoBehaviour {
             default:
                 throw new ArgumentOutOfRangeException(nameof(item), item, null);
         }
-
+        itemsOwned[enumItem] = true;
         currentMoney.text = "Munny: " + _money;
     }
 
@@ -131,6 +148,8 @@ public class Inventory : MonoBehaviour {
                 throw new ArgumentOutOfRangeException(nameof(item), item, null);
         }
 
+        itemsOwned[enumItem] = false;
         currentMoney.text = "Munny: " + _money;
+        SellAction?.Invoke(item);
     }
 }

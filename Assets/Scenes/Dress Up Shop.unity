@@ -3467,6 +3467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 30
+  inventory: {fileID: 1717983738}
   movementDampening: 0.05
   playerRigidbody2D: {fileID: 931505572}
   characterAnimator: {fileID: 1597539613}

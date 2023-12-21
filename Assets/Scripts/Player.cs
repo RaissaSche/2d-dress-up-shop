@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
     private Dictionary<Item, Vector3> _itemsOffsets;
     private Dictionary<Item, AnimatorController> _itemsAnimatorControllers;
 
+    [SerializeField] private Inventory inventory;
     [Range(0, .3f)] [SerializeField] private float movementDampening = .05f;
     [SerializeField] private Rigidbody2D playerRigidbody2D;
     [SerializeField] private Animator characterAnimator, clothesAnimator, headAnimator;
@@ -27,6 +28,8 @@ public class Player : MonoBehaviour {
         witchHatAnimatorController;
 
     public void Start() {
+        Inventory.SellAction += Equip;
+
         _itemsEquipped = new Dictionary<Item, bool> {
             {Item.GoldOutfit, true},
             {Item.BlueOutfit, false},
@@ -150,8 +153,12 @@ public class Player : MonoBehaviour {
 
     public void Equip(int value) {
         Item item = (Item) value;
-
         _itemsEquipped[item] = !_itemsEquipped[item];
+
+        if (inventory.itemsOwned[item] == false) {
+            _itemsEquipped[item] = false;
+        }
+
         bool isClothing = item <= Item.SilverOutfit;
 
         if (_itemsEquipped[item] == true) {
