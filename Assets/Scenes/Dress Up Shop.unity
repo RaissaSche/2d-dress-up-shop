@@ -3472,13 +3472,12 @@ MonoBehaviour:
   characterAnimator: {fileID: 1597539613}
   clothesAnimator: {fileID: 1981757185}
   headAnimator: {fileID: 205504936}
-  goldOutfitAnimator: {fileID: 9100000, guid: 6e227f7500d21f748a6190a2db8c9720, type: 2}
-  blueOutfitAnimator: {fileID: 9100000, guid: 25d2049cd64079e4786cfa2f2bfc27db, type: 2}
-  silverOutfitAnimator: {fileID: 9100000, guid: 16b96ed6667abd34aa8c5dd02a6edb5c, type: 2}
-  silverHairAnimator: {fileID: 9100000, guid: c2b41b96be79c624e84f31c8cc9d3bff, type: 2}
-  brownHatAnimator: {fileID: 9100000, guid: 160ab89b9fba7504c9f6e48d2915a7b3, type: 2}
-  witchHatAnimator: {fileID: 9100000, guid: 0ee9093997197d343a94ae3dd20b3caf, type: 2}
-  emptyAnimator: {fileID: 9100000, guid: fd1012dd2f5b5554b82189cc15b8d120, type: 2}
+  goldOutfitAnimatorController: {fileID: 9100000, guid: 6e227f7500d21f748a6190a2db8c9720, type: 2}
+  blueOutfitAnimatorController: {fileID: 9100000, guid: 25d2049cd64079e4786cfa2f2bfc27db, type: 2}
+  silverOutfitAnimatorController: {fileID: 9100000, guid: 16b96ed6667abd34aa8c5dd02a6edb5c, type: 2}
+  silverHairAnimatorController: {fileID: 9100000, guid: c2b41b96be79c624e84f31c8cc9d3bff, type: 2}
+  brownHatAnimatorController: {fileID: 9100000, guid: 160ab89b9fba7504c9f6e48d2915a7b3, type: 2}
+  witchHatAnimatorController: {fileID: 9100000, guid: 0ee9093997197d343a94ae3dd20b3caf, type: 2}
 --- !u!50 &931505572
 Rigidbody2D:
   serializedVersion: 4

@@ -1,7 +1,8 @@
-using System;
 using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 public class Player : MonoBehaviour {
 
@@ -10,27 +11,47 @@ public class Player : MonoBehaviour {
     private float _verticalMovement = 0f;
     private Vector3 _velocity = Vector3.zero;
     private bool _walkingLeft, _walkingFront;
-    private Dictionary<string, bool> _itemsEquipped;
+    private Dictionary<Item, bool> _itemsEquipped;
+    private Dictionary<Item, Vector3> _itemsOffsets;
+    private Dictionary<Item, AnimatorController> _itemsAnimatorControllers;
 
     [Range(0, .3f)] [SerializeField] private float movementDampening = .05f;
     [SerializeField] private Rigidbody2D playerRigidbody2D;
     [SerializeField] private Animator characterAnimator, clothesAnimator, headAnimator;
 
-    [SerializeField] private AnimatorController goldOutfitAnimator,
-        blueOutfitAnimator,
-        silverOutfitAnimator,
-        silverHairAnimator,
-        brownHatAnimator,
-        witchHatAnimator;
+    [SerializeField] private AnimatorController goldOutfitAnimatorController,
+        blueOutfitAnimatorController,
+        silverOutfitAnimatorController,
+        silverHairAnimatorController,
+        brownHatAnimatorController,
+        witchHatAnimatorController;
 
     public void Start() {
-        _itemsEquipped = new Dictionary<string, bool> {
-            {"GoldOutfit", true},
-            {"BlueOutfit", false},
-            {"SilverOutfit", false},
-            {"SilverHair", false},
-            {"BrownHat", false},
-            {"WitchHat", false}
+        _itemsEquipped = new Dictionary<Item, bool> {
+            {Item.GoldOutfit, true},
+            {Item.BlueOutfit, false},
+            {Item.SilverOutfit, false},
+            {Item.SilverHair, false},
+            {Item.BrownHat, false},
+            {Item.WitchHat, false}
+        };
+
+        _itemsOffsets = new Dictionary<Item, Vector3> {
+            {Item.GoldOutfit, new Vector3(0.252000004f, -0.101000004f, 2f)},
+            {Item.BlueOutfit, new Vector3(0.252000004f, -0.128000006f, 2f)},
+            {Item.SilverOutfit, new Vector3(0.252000004f, -0.101000004f, 2f)},
+            {Item.SilverHair, new Vector3(0.250999987f, 0.0439999998f, 2f)},
+            {Item.BrownHat, new Vector3(0.250999987f, 0.00600000005f, 2f)},
+            {Item.WitchHat, new Vector3(0.250999987f, 0.0439999998f, 2f)}
+        };
+
+        _itemsAnimatorControllers = new Dictionary<Item, AnimatorController> {
+            {Item.GoldOutfit, goldOutfitAnimatorController},
+            {Item.BlueOutfit, blueOutfitAnimatorController},
+            {Item.SilverOutfit, silverOutfitAnimatorController},
+            {Item.SilverHair, silverHairAnimatorController},
+            {Item.BrownHat, brownHatAnimatorController},
+            {Item.WitchHat, witchHatAnimatorController}
         };
     }
 
@@ -127,84 +148,31 @@ public class Player : MonoBehaviour {
         headAnimator.SetTrigger("Left");
     }
 
-    public void Equip(int item) {
-        Item enumItem = (Item) item;
+    public void Equip(int value) {
+        Item item = (Item) value;
 
-        switch (enumItem) {
-            case Item.GoldOutfit:
-                _itemsEquipped["GoldOutfit"] = !_itemsEquipped["GoldOutfit"];
-                if (_itemsEquipped["GoldOutfit"] == true) {
-                    clothesAnimator.gameObject.SetActive(true);
-                    clothesAnimator.runtimeAnimatorController = goldOutfitAnimator;
-                    clothesAnimator.transform.localPosition = new Vector3((float) 0.252000004, (float) -0.101000004, 2);
-                }
-                else {
-                    clothesAnimator.gameObject.SetActive(false);
-                }
+        _itemsEquipped[item] = !_itemsEquipped[item];
+        bool isClothing = item <= Item.SilverOutfit;
 
-                break;
-            case Item.BlueOutfit:
-                _itemsEquipped["BlueOutfit"] = !_itemsEquipped["BlueOutfit"];
-                if (_itemsEquipped["BlueOutfit"] == true) {
-                    clothesAnimator.gameObject.SetActive(true);
-                    clothesAnimator.runtimeAnimatorController = blueOutfitAnimator;
-                    clothesAnimator.transform.localPosition = new Vector3((float) 0.252000004, (float) -0.128000006, 2);
-                }
-                else {
-                    clothesAnimator.gameObject.SetActive(false);
-                }
-
-                break;
-            case Item.SilverOutfit:
-                _itemsEquipped["SilverOutfit"] = !_itemsEquipped["SilverOutfit"];
-                if (_itemsEquipped["SilverOutfit"] == true) {
-                    clothesAnimator.gameObject.SetActive(true);
-                    clothesAnimator.runtimeAnimatorController = silverOutfitAnimator;
-                    clothesAnimator.transform.localPosition = new Vector3((float) 0.252000004, (float) -0.101000004, 2);
-                }
-                else {
-                    clothesAnimator.gameObject.SetActive(false);
-                }
-
-                break;
-            case Item.SilverHair:
-                _itemsEquipped["SilverHair"] = !_itemsEquipped["SilverHair"];
-                if (_itemsEquipped["SilverHair"] == true) {
-                    headAnimator.gameObject.SetActive(true);
-                    headAnimator.runtimeAnimatorController = silverHairAnimator;
-                    headAnimator.transform.localPosition = new Vector3((float) 0.250999987, (float) 0.0439999998, 2);
-                }
-                else {
-                    headAnimator.gameObject.SetActive(false);
-                }
-
-                break;
-            case Item.BrownHat:
-                _itemsEquipped["BrownHat"] = !_itemsEquipped["BrownHat"];
-                if (_itemsEquipped["BrownHat"] == true) {
-                    headAnimator.gameObject.SetActive(true);
-                    headAnimator.runtimeAnimatorController = brownHatAnimator;
-                    headAnimator.transform.localPosition = new Vector3((float) 0.250999987, (float) 0.00600000005, 2);
-                }
-                else {
-                    headAnimator.gameObject.SetActive(false);
-                }
-
-                break;
-            case Item.WitchHat:
-                _itemsEquipped["WitchHat"] = !_itemsEquipped["WitchHat"];
-                if (_itemsEquipped["WitchHat"] == true) {
-                    headAnimator.gameObject.SetActive(true);
-                    headAnimator.runtimeAnimatorController = witchHatAnimator;
-                    headAnimator.transform.localPosition = new Vector3((float) 0.250999987, (float) 0.0439999998, 2);
-                }
-                else {
-                    headAnimator.gameObject.SetActive(false);
-                }
-
-                break;
-            default:
-                throw new ArgumentOutOfRangeException();
+        if (_itemsEquipped[item] == true) {
+            if (isClothing) {
+                clothesAnimator.gameObject.SetActive(true);
+                clothesAnimator.runtimeAnimatorController = _itemsAnimatorControllers[item];
+                clothesAnimator.transform.localPosition = _itemsOffsets[item];
+            }
+            else {
+                headAnimator.gameObject.SetActive(true);
+                headAnimator.runtimeAnimatorController = _itemsAnimatorControllers[item];
+                headAnimator.transform.localPosition = _itemsOffsets[item];
+            }
+        }
+        else {
+            if (isClothing) {
+                clothesAnimator.gameObject.SetActive(false);
+            }
+            else {
+                headAnimator.gameObject.SetActive(false);
+            }
         }
     }
 }

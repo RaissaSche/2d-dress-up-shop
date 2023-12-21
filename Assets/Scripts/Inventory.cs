@@ -10,6 +10,7 @@ public enum Item {
     BrownHat,
     WitchHat
 };
+
 public class Inventory : MonoBehaviour {
     private int _money = 2000;
     [SerializeField] private Text currentMoney;
