@@ -1,8 +1,5 @@
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
-using Vector2 = UnityEngine.Vector2;
-using Vector3 = UnityEngine.Vector3;
 
 public class Player : MonoBehaviour {
 
@@ -13,14 +10,14 @@ public class Player : MonoBehaviour {
     private bool _walkingLeft, _walkingFront;
     private Dictionary<Item, bool> _itemsEquipped;
     private Dictionary<Item, Vector3> _itemsOffsets;
-    private Dictionary<Item, AnimatorController> _itemsAnimatorControllers;
+    private Dictionary<Item, RuntimeAnimatorController> _itemsAnimatorControllers;
 
     [SerializeField] private Inventory inventory;
     [Range(0, .3f)] [SerializeField] private float movementDampening = .05f;
     [SerializeField] private Rigidbody2D playerRigidbody2D;
     [SerializeField] private Animator characterAnimator, clothesAnimator, headAnimator;
 
-    [SerializeField] private AnimatorController goldOutfitAnimatorController,
+    [SerializeField] private RuntimeAnimatorController goldOutfitAnimatorController,
         blueOutfitAnimatorController,
         silverOutfitAnimatorController,
         silverHairAnimatorController,
@@ -48,7 +45,7 @@ public class Player : MonoBehaviour {
             {Item.WitchHat, new Vector3(0.250999987f, 0.0439999998f, 2f)}
         };
 
-        _itemsAnimatorControllers = new Dictionary<Item, AnimatorController> {
+        _itemsAnimatorControllers = new Dictionary<Item, RuntimeAnimatorController > {
             {Item.GoldOutfit, goldOutfitAnimatorController},
             {Item.BlueOutfit, blueOutfitAnimatorController},
             {Item.SilverOutfit, silverOutfitAnimatorController},

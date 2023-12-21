@@ -13,7 +13,7 @@ public enum Item {
 };
 
 public class Inventory : MonoBehaviour {
-    
+
     public static event Action<int> SellAction;
     public Dictionary<Item, bool> itemsOwned;
     private int _money = 2000;
@@ -41,7 +41,7 @@ public class Inventory : MonoBehaviour {
             {Item.BrownHat, false},
             {Item.WitchHat, false}
         };
-        
+
         Buy(0);
     }
 
@@ -50,42 +50,71 @@ public class Inventory : MonoBehaviour {
 
         switch (enumItem) {
             case Item.GoldOutfit:
-                if (_money >= 500) _money -= 500;
+                if (_money >= 500) {
+                    _money -= 500;
+                }
+                else {
+                    return;
+                }
 
                 goldOutfitInventory.SetActive(true);
                 goldOutfitBuy.interactable = false;
                 goldOutfitSell.interactable = true;
                 break;
             case Item.BlueOutfit:
-                if (_money >= 500) _money -= 500;
+                if (_money >= 500) {
+                    _money -= 500;
+                }
+                else {
+                    return;
+                }
 
                 blueOutfitInventory.SetActive(true);
                 blueOutfitBuy.interactable = false;
                 blueOutfitSell.interactable = true;
                 break;
             case Item.SilverOutfit:
-                if (_money >= 500) _money -= 500;
+                if (_money >= 500) {_money -= 500;
+                }
+                else {
+                    return;
+                }
 
                 silverOutfitInventory.SetActive(true);
                 silverOutfitBuy.interactable = false;
                 silverOutfitSell.interactable = true;
                 break;
             case Item.SilverHair:
-                if (_money >= 250) _money -= 250;
+                if (_money >= 250) {
+                    _money -= 250;
+                }
+                else {
+                    return;
+                }
 
                 silverHairInventory.SetActive(true);
                 silverHairBuy.interactable = false;
                 silverHairSell.interactable = true;
                 break;
             case Item.BrownHat:
-                if (_money >= 250) _money -= 250;
+                if (_money >= 250) {
+                    _money -= 250;
+                }
+                else {
+                    return;
+                }
 
                 brownHatInventory.SetActive(true);
                 brownHatBuy.interactable = false;
                 brownHatSell.interactable = true;
                 break;
             case Item.WitchHat:
-                if (_money >= 250) _money -= 250;
+                if (_money >= 250) {
+                    _money -= 250;
+                }
+                else {
+                    return;
+                }
 
                 witchHatInventory.SetActive(true);
                 witchHatBuy.interactable = false;
@@ -94,6 +123,7 @@ public class Inventory : MonoBehaviour {
             default:
                 throw new ArgumentOutOfRangeException(nameof(item), item, null);
         }
+
         itemsOwned[enumItem] = true;
         currentMoney.text = "Munny: " + _money;
     }
