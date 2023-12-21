@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
     private int _money = 2000;
+    [SerializeField] private Text currentMoney;
 
     [SerializeField] private GameObject goldOutfitInventory,
         blueOutfitInventory,
@@ -28,8 +29,10 @@ public class Inventory : MonoBehaviour {
         WitchHat
     };
 
-    public void Buy(Item item) {
-        switch (item) {
+    public void Buy(int item) {
+        Item enumItem = (Item) item;
+
+        switch (enumItem) {
             case Item.GoldOutfit:
                 if (_money >= 500) _money -= 500;
 
@@ -46,28 +49,28 @@ public class Inventory : MonoBehaviour {
                 break;
             case Item.SilverOutfit:
                 if (_money >= 500) _money -= 500;
-                
+
                 silverOutfitInventory.SetActive(true);
                 silverOutfitBuy.interactable = false;
                 silverOutfitSell.interactable = true;
                 break;
             case Item.SilverHair:
                 if (_money >= 250) _money -= 250;
-                
+
                 silverHairInventory.SetActive(true);
                 silverHairBuy.interactable = false;
                 silverHairSell.interactable = true;
                 break;
             case Item.BrownHat:
                 if (_money >= 250) _money -= 250;
-                
+
                 brownHatInventory.SetActive(true);
                 brownHatBuy.interactable = false;
                 brownHatSell.interactable = true;
                 break;
             case Item.WitchHat:
                 if (_money >= 250) _money -= 250;
-                
+
                 witchHatInventory.SetActive(true);
                 witchHatBuy.interactable = false;
                 witchHatSell.interactable = true;
@@ -75,50 +78,52 @@ public class Inventory : MonoBehaviour {
             default:
                 throw new ArgumentOutOfRangeException(nameof(item), item, null);
         }
+
+        currentMoney.text = "Munny: " + _money;
     }
 
-    private void Sell(Item item) {
-        //icon hide
-        //money +
-        switch (item) {
+    public void Sell(int item) {
+        Item enumItem = (Item) item;
+
+        switch (enumItem) {
             case Item.GoldOutfit:
                 _money += 500;
-                
+
                 goldOutfitInventory.SetActive(false);
                 goldOutfitBuy.interactable = true;
                 goldOutfitSell.interactable = false;
                 break;
             case Item.BlueOutfit:
                 _money += 500;
-                
+
                 blueOutfitInventory.SetActive(false);
                 blueOutfitBuy.interactable = true;
                 blueOutfitSell.interactable = false;
                 break;
             case Item.SilverOutfit:
                 _money += 500;
-                
+
                 silverOutfitInventory.SetActive(false);
                 silverOutfitBuy.interactable = true;
                 silverOutfitSell.interactable = false;
                 break;
             case Item.SilverHair:
                 _money += 250;
-                
+
                 silverHairInventory.SetActive(false);
                 silverHairBuy.interactable = true;
                 silverHairSell.interactable = false;
                 break;
             case Item.BrownHat:
                 _money += 250;
-                
+
                 brownHatInventory.SetActive(false);
                 brownHatBuy.interactable = true;
                 brownHatSell.interactable = false;
                 break;
             case Item.WitchHat:
                 _money += 250;
-                
+
                 witchHatInventory.SetActive(false);
                 witchHatBuy.interactable = true;
                 witchHatSell.interactable = false;
@@ -126,5 +131,7 @@ public class Inventory : MonoBehaviour {
             default:
                 throw new ArgumentOutOfRangeException(nameof(item), item, null);
         }
+
+        currentMoney.text = "Munny: " + _money;
     }
 }
